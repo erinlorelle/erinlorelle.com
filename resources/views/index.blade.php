@@ -68,7 +68,8 @@
             <div class="intro-lead-in">Welcome To Erin Cook's Site!</div>
             <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
             {{--<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>--}}
-            <p style="font-size: xx-large; color: gold;"><em>This site is currently in progress.  <br> Check back frequently for changes and new content.</em></p>
+            <p style="font-size: xx-large; color: gold;"><em>Check back frequently for new content as this site is being updated.</em></p>
+            <br>
         </div>
     </div>
 </header>
@@ -153,20 +154,20 @@
                     <p class="text-muted">Green Light Optimal Speed Advisory (GLOSA) Application - Capstone Project</p>
                 </div>
             </div>
-            {{--<div class="col-md-4 col-sm-6 portfolio-item">
+            <div class="col-md-4 col-sm-6 portfolio-item">
                 <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
+                    <img class="img-fluid" src="img/muesli.JPG" alt="">
                 </a>
                 <div class="portfolio-caption">
-                    <h4>Window</h4>
-                    <p class="text-muted">Photography</p>
-                </div>--}}{{--
-            </div>--}}
+                    <h4>Muesli</h4>
+                    <p class="text-muted">Big data analysis of Muesli breakfast products using Tableau</p>
+                </div>-
+            </div>
         </div>
     </div>
 </section>
@@ -666,7 +667,10 @@
                             <!-- Project Details Go Here -->
                             <h2 class="text-uppercase">Natural Recipes</h2>
                             <p class="item-intro text-muted">Recipes for home and beauty care products that can be created at home with ingredients commonly found around the house.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/nature.JPG" alt="">
+                            <video width=100% height=auto controls>
+                                <source src="img/videos/natural.m4v" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
                             <hr>
                             <p>My first website project and my first exposure to Bootstrap.  This was a solo project and I chose to display some natural recipes that I frequently use!</p>
                             <ul class="list-inline" style="font-size: smaller;">
@@ -701,10 +705,13 @@
                             <!-- Project Details Go Here -->
                             <h2 class="text-uppercase">Recitation Session</h2>
                             <p class="item-intro text-muted">Recitation Session database management website</p>
-                            <img class="img-fluid d-block mx-auto" src="img/recitation.jpg" alt="">
+                            <video width=100% height=auto controls>
+                                <source src="img/videos/recitation.m4v" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
                             <hr>
                             <p>PHP, Laravel, and SQLite combined with HTML created this database management system.  Users are assigned credentials allowing or denying access to create, update, and delete course names, majors, users, and roles.</p>
-                            <p>The above screenshot shows the Admin screen indicated by a green notification in the navigation bar.</p>
+                            <p>The above video shows the Admin screen indicated by a green notification in the navigation bar.</p>
                             <ul class="list-inline" style="font-size: smaller;">
                                 <li>Date: Fall 2017</li>
                                 <li>Client: East Tennessee State University computing faculty</li>
@@ -737,9 +744,13 @@
                             <!-- Project Details Go Here -->
                             <h2 class="text-uppercase">FTCS V2.0</h2>
                             <p class="item-intro text-muted">ETSU's Faculty Teaching Credentials System</p>
-                            <img class="img-fluid d-block mx-auto" src="img/ftcs.jpg" alt="">
+                            <video width=100% height=auto controls>
+                                <source src="img/videos/ftcs2.0.m4v" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
                             <hr>
-                            <p>PHP, Laravel, and JavaScript are used to revamp ETSU's existing FTCS with newer technology and a newer and responsive design.</p>
+                            <p>PHP, Laravel, and JavaScript are used to revamp ETSU's existing Faculty Teaching Credentials
+                                System (FTCS) with newer technology and a newer and responsive design.</p>
                             <p>This site required accessibility depending on credential level, and added functionality to allow quick updates to the database with a click of the button via the website, rather than only through the backend.</p>
                             <ul class="list-inline" style="font-size: smaller;">
                                 <li>Date: Fall 2018</li>
@@ -773,9 +784,15 @@
                             <!-- Project Details Go Here -->
                             <h2 class="text-uppercase">Bowman Harrison Realtor</h2>
                             <p class="item-intro text-muted">A mother daughter realtor firm that also provides staging services</p>
-                            <img class="img-fluid d-block mx-auto" src="img/bowmanharrison.png" alt="">
+                            <video width=100% height=auto controls>
+                                <source src="img/videos/bowmanharrison.m4v" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
                             <hr>
-                            <p>A mother daughter realtor firm desiring to increase their online presence while promoting their staging services, giving them an edge in the real estate market.  The website includes buying and selling guides, regional information with a clickable map, and staging FAQs.</p>
+                            <p>A mother daughter realtor firm desiring to increase their online presence while promoting
+                                their staging services, giving them an edge in the real estate market.
+                                The website prototype includes buying and selling guides, regional information with a
+                                clickable map, and staging FAQs.</p>
                             <ul class="list-inline" style="font-size: smaller;">
                                 <li>Date: Fall 2019</li>
                                 <li>Client: Jamie Bowman and Tami Harrison</li>
@@ -808,7 +825,10 @@
                             <!-- Project Details Go Here -->
                             <h2 class="text-uppercase">Spring State Machine</h2>
                             <p class="item-intro text-muted">Green Light Optimal Speed Advisory (GLOSA) Application - Capstone Project</p>
-                            <img class="img-fluid d-block mx-auto" src="img/spring.png" alt="">
+                            <video width=100% height=auto controls>
+                                <source src="img/videos/spring.m4v" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
                             <hr>
                             <p>Screenshot from initial middleware framework for the Green Light Optimal Speed Advisory (GLOSA) Application capstone project. This application uses traffic signal control information and vehicle location (V2I) to provide driver safety and awareness, optimal destination routing, and improved gas mileage and fuel emissions.</p>
                             <p>As the lead developer in the middleware division,
@@ -843,14 +863,24 @@
                     <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2017</li>
-                                <li>Client: Window</li>
-                                <li>Category: Photography</li>
+                            <h2 class="text-uppercase">Muesli</h2>
+                            <p class="item-intro text-muted">Big Data Analysis of Muesli breakfast products using Tableau</p>
+                            <p class="item-intro text-muted">*below is a PDF exported from Tableau for easy viewing*</p>
+                            <iframe src="img/muesli(cropped_ls).pdf" width="100%" height="550px" style="display: block;margin-left: auto;margin-right: auto;">
+                                Example fallback content: This browser does not support PDFs. Please download the PDF to view it: Download PDF.
+                            </iframe>
+                            <hr>
+                            <p>Analyzed and organized datasets to view patterns and correlations such as Inventory and Production
+                            , and Sales and Market.  Those were examined first to spot patterns that may be useful to the stakeholders. Based on the datasets, charts were split into three categories: Inventory, Sales, and Financial.
+                            The charts were organized to insure that all facets of the database were explored, providing structure for the presentation story.
+                            </p>
+                            <p>The focus was to create informative charts that tell accurate data at a glance. In most cases, filters were added to allow a clearer view of specifics, which may be obscure in the broader layout.
+                                To determine which charts might appeal to the Muesli Board of Directors, research was done to hit key topics.</p>
+                            <ul class="list-inline" style="font-size: smaller;">
+                                <li>Date: Spring 2019</li>
+                                <li>Client: Mr. Stephen Hendrix, CEO; Mr. Jeff Fraley, COO; Mr. Mathew Desjardins, CIO;
+                                and Mr. Evan Blankenship, President/COB</li>
+                                <li>Category: Big Data Analytics</li>
                             </ul>
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
