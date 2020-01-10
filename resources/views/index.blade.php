@@ -10,6 +10,11 @@
     <link rel="shortcut icon" href="img/customE.JPG">
 
     <title>Erin Lorelle Cook</title>
+    <!--
+            Author:			Erin Lorelle Cook
+            Last Revised:	01/10/2020
+            Purpose:		Personal/Portfolio
+         -->
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
