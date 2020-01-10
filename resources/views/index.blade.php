@@ -50,9 +50,6 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#hobbies">Hobbies</a>
                 </li>
-                {{--<li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#team">Team</a>
-                </li>--}}
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
                 </li>
@@ -398,12 +395,17 @@
               <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
             </span>
                 <h4 class="service-heading">Woodworking</h4>
-                <p class="text-muted">I enjoy building things I can use around the house.  Click on any of the project titles below to see some of my creations.</p>
+                {{--<p class="text-muted">I enjoy building things I can use around the house.  Click on any of the project titles below to see some of my creations.</p>--}}
+                <p class="text-muted">I enjoy building things I can use around the house.  Stay tuned for links to pictures of the below projects.</p>
                 <p class="text-muted" style="list-style-type: none;">
-                    <a href="" style="text-decoration: none;">Platform bed frames</a>
-                    <br><a href="" style="text-decoration: none;">Bookcase headboard</a>
-                    <br><a href="" style="text-decoration: none;">Rustic headboard</a>
-                    <br><a href="" style="text-decoration: none;">Kitchen island</a>
+                    {{--<a href="" style="text-decoration: none;">Platform bed frames</a>--}}
+                    Platform bed frames
+                    {{--<br><a href="" style="text-decoration: none;">Bookcase headboard</a>--}}
+                    <br>Bookcase headboard
+                    {{--<br><a href="" style="text-decoration: none;">Rustic headboard</a>--}}
+                    <br>Rustic headboard
+                    {{--<br><a href="" style="text-decoration: none;">Kitchen island</a>--}}
+                    <br>Kitchen island
                 </p>
             </div>
             <div class="col-md-4">
@@ -564,12 +566,14 @@
 </section>--}}
 
 <!-- Contact -->
-<section id="contact">
+<section id="contact" style="padding:110px 0 40px 0;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase"><a href="mailto:erinlorelle@outlook.com" style="text-decoration: none;">Contact Me</a></h2>
+                <a href="mailto:erinlorelle@outlook.com" style="text-decoration: none;"><img src="img/CBAT2.jpg" alt="Profile pic" style="border-radius: 50%;height: 40%;margin-bottom: 50px;"></a>
                 <p style="color:goldenrod;"><em><a href="mailto:erinlorelle@outlook.com" style="text-decoration: none;">Click above to email me.  I'd love to hear from you.</a></em></p>
+                <p style="color:lightsteelblue;">Look me up on LinkedIn and GitHub by clicking on the below links.</p>
                 {{--<h3 class="section-subheading text-muted">Fill out the form below, or click above to email me.</h3>--}}
             </div>
         </div>
@@ -629,20 +633,25 @@
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="http://www.linkedin.com/in/erin-cook-80b78a50" target="_blank">
+                        <a href="http://www.linkedin.com/in/erinlorellecook" target="_blank">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                     </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/erinlorelle" target="_blank">
+                            <i class="fab fa-github" style="font-size: x-large;"></i>
+                        </a>
+                    </li>
                 </ul>
-            </div>
+            </div
             <div class="col-md-4">
                 <ul class="list-inline quicklinks">
-                    <li class="list-inline-item">
+                    {{--<li class="list-inline-item">
                         <a href="#">Privacy Policy</a>
                     </li>
                     <li class="list-inline-item">
                         <a href="#">Terms of Use</a>
-                    </li>
+                    </li>--}}
                 </ul>
             </div>
         </div>
@@ -677,6 +686,7 @@
                                 <li>Date: August 2017</li>
                                 <li>Client: Myself</li>
                                 <li>Category: Informative</li>
+                                <li>GitHub: <a href="https://github.com/erinlorelle/naturalrecipes.git" target="_blank;">naturalrecipes</a></li>
                             </ul>
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
@@ -716,6 +726,7 @@
                                 <li>Date: Fall 2017</li>
                                 <li>Client: East Tennessee State University computing faculty</li>
                                 <li>Category: Database</li>
+                                <li>GitHub: <a href="https://github.com/erinlorelle/RecitationSession.git" target="_blank;">RecitationSession</a></li>
                             </ul>
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
@@ -756,6 +767,7 @@
                                 <li>Date: Fall 2018</li>
                                 <li>Client: East Tennessee State University</li>
                                 <li>Category: Database</li>
+                                <li>GitHub: <a href="https://github.com/erinlorelle/FTCSV2.0.git" target="_blank;">FTCSV2.0</a></li>
                             </ul>
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
@@ -797,6 +809,7 @@
                                 <li>Date: Fall 2019</li>
                                 <li>Client: Jamie Bowman and Tami Harrison</li>
                                 <li>Category: Real Estate</li>
+                                <li>GitHub: <a href="https://github.com/erinlorelle/bowmanharrison.git" target="_blank;">bowmanharrison</a></li>
                             </ul>
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
@@ -837,6 +850,7 @@
                                 <li>Date: Fall 2018 - Spring 2020</li>
                                 <li>Client: Ford Motor Company, Asad Hoque, Ph.D. Associate Professor at ETSU</li>
                                 <li>Category: Capstone Project</li>
+                                <li>GitHub: <a href="https://github.com/erinlorelle/newspringattempt.git" target="_blank;">newspringattempt</a></li>
                             </ul>
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
