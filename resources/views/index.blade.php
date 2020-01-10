@@ -578,7 +578,7 @@
                 <h2 class="section-heading text-uppercase"><a href="mailto:erinlorelle@outlook.com" style="text-decoration: none;">Contact Me</a></h2>
                 <a href="mailto:erinlorelle@outlook.com" style="text-decoration: none;"><img src="img/CBAT2.jpg" alt="Profile pic" style="border-radius: 50%;height: 40%;margin-bottom: 50px;"></a>
                 <p style="color:goldenrod;"><em><a href="mailto:erinlorelle@outlook.com" style="text-decoration: none;">Click above to email me.  I'd love to hear from you.</a></em></p>
-                <p style="color:lightgrey;">Look me up on LinkedIn and GitHub by clicking on the below icons.</p>
+                <p style="color:lightgrey;">Look me up on <a href="http://www.linkedin.com/in/erinlorellecook" target="_blank" style="color: lightgrey;">LinkedIn</a> and <a href="https://github.com/erinlorelle" target="_blank" style="color: lightgrey;">GitHub</a> by clicking on the below icons.</p>
                 {{--<h3 class="section-subheading text-muted">Fill out the form below, or click above to email me.</h3>--}}
             </div>
         </div>
@@ -623,7 +623,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <span class="copyright">Copyright &copy; Erin Lorelle Cook 2018</span>
+                <span class="copyright">Copyright &copy; Erin Lorelle Cook 2018-2020</span>
             </div>
             <div class="col-md-4">
                 <ul class="list-inline social-buttons">
