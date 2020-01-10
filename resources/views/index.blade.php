@@ -573,7 +573,7 @@
                 <h2 class="section-heading text-uppercase"><a href="mailto:erinlorelle@outlook.com" style="text-decoration: none;">Contact Me</a></h2>
                 <a href="mailto:erinlorelle@outlook.com" style="text-decoration: none;"><img src="img/CBAT2.jpg" alt="Profile pic" style="border-radius: 50%;height: 40%;margin-bottom: 50px;"></a>
                 <p style="color:goldenrod;"><em><a href="mailto:erinlorelle@outlook.com" style="text-decoration: none;">Click above to email me.  I'd love to hear from you.</a></em></p>
-                <p style="color:lightsteelblue;">Look me up on LinkedIn and GitHub by clicking on the below links.</p>
+                <p style="color:#D3DB89;">Look me up on LinkedIn and GitHub by clicking on the below icons.</p>
                 {{--<h3 class="section-subheading text-muted">Fill out the form below, or click above to email me.</h3>--}}
             </div>
         </div>
