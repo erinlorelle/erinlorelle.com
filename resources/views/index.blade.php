@@ -275,12 +275,12 @@
                             </div>
                         </div>
                     </li>
-                    <li class="timeline-inverted">
+                    {{--<li class="timeline-inverted">
                         <div class="timeline-image">
                             <h4>Stay
                                 <br>Tuned!</h4>
                         </div>
-                    </li>
+                    </li>--}}
                 </ul>
             </div>
         </div>
