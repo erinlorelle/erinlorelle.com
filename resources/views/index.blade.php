@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="img/customE.JPG">
+    <link rel="shortcut icon" href="img/logos/customE.JPG">
 
     <title>Erin Lorelle Cook</title>
     <!--
@@ -47,10 +47,10 @@
                     <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    <a class="nav-link js-scroll-trigger" href="#document">Documents</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#document">Documents</a>
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#hobbies">Hobbies</a>
@@ -93,7 +93,7 @@
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="img/nature.JPG" alt="">
+                    <img class="img-fluid" src="img/portfolio/nature.JPG" alt="">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Natural Recipes</h4>
@@ -107,7 +107,7 @@
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="img/recitation.jpg" alt="">
+                    <img class="img-fluid" src="img/portfolio/recitation.jpg" alt="">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Recitation Session</h4>
@@ -121,7 +121,7 @@
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="img/ftcs.jpg" alt="">
+                    <img class="img-fluid" src="img/portfolio/ftcs.jpg" alt="">
                 </a>
                 <div class="portfolio-caption">
                     <h4>FTCS V2.0</h4>
@@ -135,7 +135,7 @@
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="img/bowmanharrison.png" alt="">
+                    <img class="img-fluid" src="img/portfolio/bowmanharrison.png" alt="">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Bowman Harrison Realtor</h4>
@@ -149,7 +149,7 @@
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="img/spring.png" alt="">
+                    <img class="img-fluid" src="img/portfolio/spring.png" alt="">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Spring State Machine</h4>
@@ -163,12 +163,119 @@
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="img/muesli.JPG" alt="">
+                    <img class="img-fluid" src="img/portfolio/muesli.JPG" alt="">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Muesli</h4>
                     <p class="text-muted">Big data analysis of Muesli breakfast products using Tableau</p>
                 </div>-
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Document Grid -->
+<section style="background-color: rgb(243, 243, 243);" id="document">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Documents</h2>
+                <h3 class="section-subheading text-muted">Reports and Technical Writing</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#documentModal1">
+                    <img class="img-fluid" src="img/documents/database.jpg" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    {{--<h4>Database</h4>--}}
+                    <hr>
+                    <p class="text-muted">Credential Manager for Renkcub Software Solutions to store user credentials</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#documentModal2">
+                    <img class="img-fluid" src="img/documents/railroad.JPG" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    {{--<h4>FTCS V2.0 Requirements Document</h4>--}}
+                    <hr>
+                    <p class="text-muted">190-FR4: IN-VEHICLE HIGHWAY RAIL GRADE CROSSING ALERT SYSTEM</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#documentModal3">
+                    <img class="img-fluid" src="img/documents/sse.JPG" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    {{--<h4>FTCS V2.0 Requirements Document</h4>--}}
+                    <hr>
+                    <p class="text-muted">Requirements document for Faculty Teaching Credential System (FTCS) V2.0</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#documentModal4">
+                    <img class="img-fluid" src="img/documents/5G.JPG" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    {{--<h4>FTCS V2.0 Requirements Document</h4>--}}
+                    <hr>
+                    <p class="text-muted">Why 5G may be the Ultimate Winner A Comparison between 5G and DSRC</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#documentModal5">
+                    <img class="img-fluid" src="img/documents/healthcare.JPG" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    {{--<h4>FTCS V2.0 Requirements Document</h4>--}}
+                    <hr>
+                    <p class="text-muted">Could Interoperability between IoT and EHR make Healthcare more Efficient?</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#documentModal6">
+                    <img class="img-fluid" src="img/documents/handoff.JPG" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    {{--<h4>FTCS V2.0 Requirements Document</h4>--}}
+                    <hr>
+                    <p class="text-muted">Handoff Document for Bowman Harrison Realtor website</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#documentModal7">
+                    <img class="img-fluid" src="img/documents/agile.JPG" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    {{--<h4>FTCS V2.0 Requirements Document</h4>--}}
+                    <hr>
+                    <p class="text-muted">Research Paper on Agile Methodologies</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#documentModal8">
+                    <img class="img-fluid" src="img/documents/lab(solns).JPG" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    {{--<h4>FTCS V2.0 Requirements Document</h4>--}}
+                    <hr>
+                    <p class="text-muted">Lab for Undergraduate Computing Students: Cipher and John the Ripper Exercise
+                        with MEMZ Exercise
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#documentModal9">
+                    <img class="img-fluid" src="img/documents/wireframe.JPG" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    {{--<h4>FTCS V2.0 Requirements Document</h4>--}}
+                    <hr>
+                    <p class="text-muted">Wireframe for mobile website for Bowman Harrison Realtor
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -287,105 +394,8 @@
     </div>
 </section>
 
-<!-- Document Grid -->
-<section class="bg-light" id="document">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Documents</h2>
-                <h3 class="section-subheading text-muted">Reports and Technical Writing</h3>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#documentModal1">
-                    <img class="img-fluid" src="img/database.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    {{--<h4>Database</h4>--}}
-                    <hr>
-                    <p class="text-muted">Credential Manager for Renkcub Software Solutions to store user credentials</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#documentModal2">
-                    <img class="img-fluid" src="img/railroad.JPG" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    {{--<h4>FTCS V2.0 Requirements Document</h4>--}}
-                    <hr>
-                    <p class="text-muted">190-FR4: IN-VEHICLE HIGHWAY RAIL GRADE CROSSING ALERT SYSTEM</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#documentModal3">
-                    <img class="img-fluid" src="img/sse.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    {{--<h4>FTCS V2.0 Requirements Document</h4>--}}
-                    <hr>
-                    <p class="text-muted">Requirements document for Faculty Teaching Credential System (FTCS) V2.0</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#documentModal4">
-                    <img class="img-fluid" src="img/5G.JPG" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    {{--<h4>FTCS V2.0 Requirements Document</h4>--}}
-                    <hr>
-                    <p class="text-muted">Why 5G may be the Ultimate Winner A Comparison between 5G and DSRC</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#documentModal5">
-                    <img class="img-fluid" src="img/healthcare.JPG" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    {{--<h4>FTCS V2.0 Requirements Document</h4>--}}
-                    <hr>
-                    <p class="text-muted">Could Interoperability between IoT and EHR make Healthcare more Efficient?</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#documentModal6">
-                    <img class="img-fluid" src="img/handoff.JPG" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    {{--<h4>FTCS V2.0 Requirements Document</h4>--}}
-                    <hr>
-                    <p class="text-muted">Handoff Document for Bowman Harrison Realtor website</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#documentModal7">
-                    <img class="img-fluid" src="img/agile.JPG" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    {{--<h4>FTCS V2.0 Requirements Document</h4>--}}
-                    <hr>
-                    <p class="text-muted">Research Paper on Agile Methodologies</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#documentModal8">
-                    <img class="img-fluid" src="img/lab(solns).JPG" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    {{--<h4>FTCS V2.0 Requirements Document</h4>--}}
-                    <hr>
-                    <p class="text-muted">Lab for Undergraduate Computing Students: Cipher and John the Ripper Exercise
-                        with MEMZ Exercise
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- Hobbies -->
-<section id="hobbies">
+<section class="bg-light" id="hobbies">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -648,7 +658,7 @@
                         </a>
                     </li>
                 </ul>
-            </div
+            </div>
             <div class="col-md-4">
                 <ul class="list-inline quicklinks">
                     {{--<li class="list-inline-item">
@@ -696,6 +706,13 @@
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
                                 Close Project</button>
+                            {{--<script>
+                                var modal1 = document.getElementById("portfolioModal1");
+                                modal1.onclick = function(event) {
+                                    modal1.style.display = "none";
+                                    return view('index/#portfolio');
+                                }
+                            </script>--}}
                         </div>
                     </div>
                 </div>
@@ -885,7 +902,7 @@
                             <h2 class="text-uppercase">Muesli</h2>
                             <p class="item-intro text-muted">Big Data Analysis of Muesli breakfast products using Tableau</p>
                             <p class="item-intro text-muted">*below is a PDF exported from Tableau for easy viewing*</p>
-                            <iframe src="img/muesli(cropped_ls).pdf" width="100%" height="550px" style="display: block;margin-left: auto;margin-right: auto;">
+                            <iframe src="img/portfolio/muesli_ls.pdf" width="100%" height="550px" style="display: block;margin-left: auto;margin-right: auto;">
                                 Example fallback content: This browser does not support PDFs. Please download the PDF to view it: Download PDF.
                             </iframe>
                             <hr>
@@ -931,7 +948,7 @@
                             <h2 class="text-uppercase">Database PassBase</h2>
                             <p class="item-intro text-muted">“Credential Manager” for Renkcub Software Solutions to store user credentials</p>
                             {{--<img class="img-fluid d-block mx-auto" src="img/database.JPG" alt="">--}}
-                            <iframe src="img/database.pdf" width="100%" height="950px" style="display: block;margin-left: auto;margin-right: auto;">
+                            <iframe src="img//documents/database.pdf" width="100%" height="950px" style="display: block;margin-left: auto;margin-right: auto;">
                                 Example fallback content: This browser does not support PDFs. Please download the PDF to view it: Download PDF.
                             </iframe>
                             <hr>
@@ -968,7 +985,7 @@
                             <!-- Project Details Go Here -->
                             <h2 class="text-uppercase">190-FR4: IN-VEHICLE HIGHWAY RAIL GRADE CROSSING ALERT SYSTEM</h2>
                             <p class="item-intro text-muted">Proposal</p>
-                            <iframe src="img/railroad.pdf" width="100%" height="950px" style="display: block;margin-left: auto;margin-right: auto;">
+                            <iframe src="img/documents/railroad.pdf" width="100%" height="950px" style="display: block;margin-left: auto;margin-right: auto;">
                                 Example fallback content: This browser does not support PDFs. Please download the PDF to view it: Download PDF.
                             </iframe>
                             <hr>
@@ -1006,7 +1023,7 @@
                             <!-- Project Details Go Here -->
                             <h2 class="text-uppercase">FTCS V2.0 Requirements Document</h2>
                             <p class="item-intro text-muted">Requirements document for Faculty Teaching Credential System (FTCS) V2.0</p>
-                            <iframe src="img/sse.pdf" width="100%" height="950px" style="display: block;margin-left: auto;margin-right: auto;">
+                            <iframe src="img/documents/sse.pdf" width="100%" height="950px" style="display: block;margin-left: auto;margin-right: auto;">
                                 Example fallback content: This browser does not support PDFs. Please download the PDF to view it: Download PDF.
                             </iframe>
                             <hr>
@@ -1044,7 +1061,7 @@
                             <!-- Project Details Go Here -->
                             <h2 class="text-uppercase">Why 5G may be the Ultimate Winner</h2>
                             <p class="item-intro text-muted">Term paper discussing 5G versus DSRC</p>
-                            <iframe src="img/5G.pdf" width="100%" height="950px" style="display: block;margin-left: auto;margin-right: auto;">
+                            <iframe src="img/documents/5G.pdf" width="100%" height="950px" style="display: block;margin-left: auto;margin-right: auto;">
                                 Example fallback content: This browser does not support PDFs. Please download the PDF to view it: Download PDF.
                             </iframe>
                             <hr>
@@ -1082,7 +1099,7 @@
                             <!-- Project Details Go Here -->
                             <h2 class="text-uppercase">Could Interoperability between IoT and EHR make Healthcare more Efficient?</h2>
                             <p class="item-intro text-muted">Research paper submitted to ARBS Conference</p>
-                            <iframe src="img/healthcare.pdf" width="100%" height="950px" style="display: block;margin-left: auto;margin-right: auto;">
+                            <iframe src="img/documents/healthcare.pdf" width="100%" height="950px" style="display: block;margin-left: auto;margin-right: auto;">
                                 Example fallback content: This browser does not support PDFs. Please download the PDF to view it: Download PDF.
                             </iframe>
                             <hr>
@@ -1120,7 +1137,7 @@
                             <!-- Project Details Go Here -->
                             <h2 class="text-uppercase">Handoff Document for Bowman Harrison Realtor</h2>
                             <p class="item-intro text-muted">Handoff Document for Bowman Harrison Realtor website</p>
-                            <iframe src="img/handoff.pdf" width="100%" height="950px" style="display: block;margin-left: auto;margin-right: auto;">
+                            <iframe src="img/documents/handoff.pdf" width="100%" height="950px" style="display: block;margin-left: auto;margin-right: auto;">
                                 Example fallback content: This browser does not support PDFs. Please download the PDF to view it: Download PDF.
                             </iframe>
                             <hr>
@@ -1158,7 +1175,7 @@
                             <!-- Project Details Go Here -->
                             <h2 class="text-uppercase">Agile Methodologies</h2>
                             <p class="item-intro text-muted">Term research paper on agile methodologies used for project management</p>
-                            <iframe src="img/agile.pdf" width="100%" height="950px" style="display: block;margin-left: auto;margin-right: auto;">
+                            <iframe src="img/documents/agile.pdf" width="100%" height="950px" style="display: block;margin-left: auto;margin-right: auto;">
                                 Example fallback content: This browser does not support PDFs. Please download the PDF to view it: Download PDF.
                             </iframe>
                             <hr>
@@ -1198,7 +1215,7 @@
                                 with MEMZ Exercise
                             </h2>
                             <p class="item-intro text-muted">Lab with Solutions</p>
-                            <iframe src="img/lab(solns).pdf" width="100%" height="950px" style="display: block;margin-left: auto;margin-right: auto;">
+                            <iframe src="img/documents/lab(solns).pdf" width="100%" height="950px" style="display: block;margin-left: auto;margin-right: auto;">
                                 Example fallback content: This browser does not support PDFs. Please download the PDF to view it: Download PDF.
                             </iframe>
                             <hr>
@@ -1211,6 +1228,47 @@
                                 <li>Date: Fall 2018</li>
                                 <li>Client: ETSU Computing Students</li>
                                 <li>Category: Network Security</li>
+                            </ul>
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 9 -->
+<div class="portfolio-modal modal fade" id="documentModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2 class="text-uppercase">Website Wireframe
+
+                            </h2>
+                            <p class="item-intro text-muted">Wireframe for a mobile realtor website using Adobe XD</p>
+                            <iframe src="img/documents/wireframe.pdf" width="100%" height="950px" style="display: block;margin-left: auto;margin-right: auto;">
+                                Example fallback content: This browser does not support PDFs. Please download the PDF to view it: Download PDF.
+                            </iframe>
+                            <hr>
+                            <p>The above wireframe includes descriptions and implications of each of the mobile website components. </p>
+                            <p>This was the initial design of the Bowman Harrison Realtor website presented to the client.  Of the
+                                prototypes chosen, this was the wireframe chosen due to app placement and visual appeal.</p>
+                            <ul class="list-inline" style="font-size: smaller;">
+                                <li>Date: Fall 2019</li>
+                                <li>Client: Bowman Harrison Realtor</li>
+                                <li>Category: Information Architecture</li>
                             </ul>
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
